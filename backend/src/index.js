@@ -1,7 +1,6 @@
 const express = require("express");
 const userController = require("./controllers/user.controller");
 const { register, login } = require("./controllers/auth.controller");
-const authenticate = require("./middlewares/authenticate");
 const app = express();
 
 app.use(express.json());
