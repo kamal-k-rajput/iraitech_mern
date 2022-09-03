@@ -67,6 +67,7 @@ export const Registration = () => {
             name="phone"
             required
             onChange={handleInputChange}
+            pattern="^[6789]\d{9}$"
           />
         </label>
         <label>
