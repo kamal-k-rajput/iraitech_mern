@@ -1,0 +1,19 @@
+.form-container>form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container>form>label {
+    margin: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.form-container>form>label>input {
+    width: 200px;
+    height: 30px;
+    margin: 0 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
